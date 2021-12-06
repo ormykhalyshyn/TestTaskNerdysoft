@@ -1,0 +1,30 @@
+﻿@model TestTask.Models.Announcement
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Details</h4>
+
+<dd class="col-sm-10">
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date of creation</th>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => modelItem.DateofCreation)
+            </td>
+        </tr>
+    </table>
+</dd>
