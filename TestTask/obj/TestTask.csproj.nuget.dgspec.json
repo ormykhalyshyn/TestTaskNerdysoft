@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\38068\\source\\repos\\TestTask\\TestTask\\TestTask.csproj": {}
+    "C:\\Users\\38068\\source\\repos\\TestTask\\TestTaskNerdysoft\\TestTask\\TestTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\38068\\source\\repos\\TestTask\\TestTask\\TestTask.csproj": {
+    "C:\\Users\\38068\\source\\repos\\TestTask\\TestTaskNerdysoft\\TestTask\\TestTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTask\\TestTask.csproj",
+        "projectUniqueName": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTaskNerdysoft\\TestTask\\TestTask.csproj",
         "projectName": "TestTask",
-        "projectPath": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTask\\TestTask.csproj",
+        "projectPath": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTaskNerdysoft\\TestTask\\TestTask.csproj",
         "packagesPath": "C:\\Users\\38068\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTask\\obj\\",
+        "outputPath": "C:\\Users\\38068\\source\\repos\\TestTask\\TestTaskNerdysoft\\TestTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\DevExpress\\Components\\Offline Packages",
@@ -48,6 +48,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
